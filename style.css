@@ -1,0 +1,198 @@
+
+body{
+
+    background-color: black;
+}
+
+
+
+/* ID div styling with google image */
+#id {
+    color: red;
+    width: 50px;
+    height: 50px;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(222, 227, 227);
+    background-image: url('../images/google.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center image within the div */
+    position: relative;
+    z-index: 1;
+}
+
+/* Box visibility and styling */
+.box {
+    height: 50px;
+    width: 50px;
+}
+
+#box1 {
+    background-color: aqua;
+    visibility: hidden;
+}
+
+#box2 {
+    background-color: hotpink;
+}
+
+.two{
+
+    height: 50px;
+    width:100%;
+    display: inline-block;
+}
+
+
+#h{
+    text-align: center;
+    color: blue;
+}
+
+
+
+#g{
+    text-align: center;
+    color: aqua;
+    text-decoration: line-through;
+}
+
+
+#j{
+    text-align: center;
+    color: red;
+    text-decoration: double;
+}
+
+
+#uppercase{
+
+    text-transform: uppercase;
+    color: green;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+
+
+
+#lowercase{
+
+    text-transform: lowercase;
+    color: navy;
+    text-align: center;
+}
+
+
+
+#firstletteruppercase{
+
+    text-transform: capitalize;
+    color: yellow;
+    text-align: center;
+}
+
+
+
+#linehight{
+
+
+     line-height:90px ;
+    color: lawngreen;
+    text-align: center;
+
+
+
+}
+
+
+
+#fontsize{
+
+    font-size: 35px;
+    color: firebrick;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+p{
+
+    font-weight: 900;
+    color: fuchsia;
+    text-align: center;
+}
+
+
+#fontweight2{
+
+    font-weight:bolder;
+    color: blueviolet;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+#fontstyle{
+
+    font-style: italic;
+    color: ivory;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+#twostyle{
+
+    font-style:italic;
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline;
+
+    
+    }
+
+
+
+
+#fontfamily{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: floralwhite;
+    text-align: center;
+    text-transform: initial;
+    text-decoration: underline;
+}    
+
+
+
+
+ul{
+width: 100%;
+color: lawngreen;
+
+}
+
+
+li{
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+#home{
+    color: blue;
+}
+
+
+#color{
+
+    color: blue;
+}
